@@ -23,3 +23,19 @@ __pycache__/
 *.log
 .env
 .env.*
+
+# C / C++ build artifacts
+*.o
+*.obj
+*.out
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.dSYM/
+compile_commands.json
+demo
+
+# Editor settings
+.vscode/

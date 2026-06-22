@@ -4,9 +4,11 @@
 #include "shape.h"
 
 typedef struct {
-    Shape base; // Inherit Shape
+    Shape base;
     int radius;
 } Circle;
+
+DECLARE_TYPE_INFO(Circle);
 
 void Circle_Init(Circle* self, int x, int y, int radius);
 
